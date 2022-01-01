@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.business-card{
+    width: 550px;
+    height: 868px;
+    background: #23252C;
+}
+.content{
+    position: absolute;
+    left: 116px;
+    top: 44px;
+    width: 317px;
+}
+
+header .image{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header{
+    text-align: center;
+    height: 718px;
+    background: #1A1B21;
+}
+
+header .title{
+    font-size: 25px;
+    margin: 21px 0 6px 0;
+}
+header .designation{
+    color: #F3BF99;
+    	margin: 0;
+}
+header .siteaddress{ color: #F5F5F5; }
+
+header .btns{
+    margin: 15px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px ;
+    border-width: 0;
+}
+
+.emailBtn{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin-right: 17px;
+}
+.inBtn{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color: white;
+    background: #5093E2;
+}
+.maincontent{
+    margin: 33px 36px 24px 36px;
+    background: #1A1B21;
+    text-align: left;
+}
+
+.maincontent .title{
+    font-size: 16px;
+    color: #F5F5F5;
+}
+.maincontent p{
+    font-size: 10.24px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+.interests{ margin-bottom: 1rem;}
+footer{
+    width: 317px;
+    background: #161619;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+justify-content: space-evenly;
+padding: 15px 0;
+color: #918E9B;
+}
