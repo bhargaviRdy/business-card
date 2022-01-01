@@ -6,7 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 export default function Header(){
     return(
         <header>
-            <img className="image" src={image}  alt="image"/>
+            <img className="image" src={image}  alt="bhimage"/>
             <h3 className="title">Bhargavi Reddy</h3>
             <p className="designation">Frontend developer</p>
             <small className="siteaddress">bhargavi.tech</small>
