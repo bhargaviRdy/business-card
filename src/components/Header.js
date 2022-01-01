@@ -1,12 +1,12 @@
 import React from "react";
-import image from '../images/onedayatatime.jpg';
+import image from '../images/dp.jpg';
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Header(){
     return(
         <header>
-            <img className="image" src={image} />
+            <img className="image" src={image}  alt="image"/>
             <h3 className="title">Bhargavi Reddy</h3>
             <p className="designation">Frontend developer</p>
             <small className="siteaddress">bhargavi.tech</small>
